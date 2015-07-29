@@ -5,11 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
-body{
-  max-width: 992px;
-  width: 100%;
+.wrapper{
+  max-width: 1200px;
   margin: 0 auto;
 }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -34,12 +34,16 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
 img{
   opacity: 0;
 }
-/*video{
-  opacity: 0;
-}*/
+
+@media only screen and (min-width : 993px) {
+  .wrapper{
+    width: 90%;
+  }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -49,12 +53,16 @@ img{
   #index-banner .section {
     top: 10%;
   }
-
+  .nav-wrapper{
+    margin-left: 5%;
+  }
 
 }
+
 #cont{
   display: none;
 }
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;

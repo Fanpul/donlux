@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -11,25 +10,27 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body><div class="wrapper">
   <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">Заказать звонок</a></li>
-  <li><a href="#!">Наши контакты</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">Наш оффис</a></li>
-</ul>
-<nav class="teal lighten-2">
-  <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Logo</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a class="white-text" href="sass.html">О НАС</a></li>
-      <li><a class="white-text" href="badges.html">СЕРВИС</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1">КОНТАКТЫ<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-  </div>
-</nav>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <a id="logo-container" href="#" class="brand-logo">DonLux</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Онлайн бронирование</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#!">Наши контакты</a></li>
+        <li><a href="#">Отзывы</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Онлайн бронирование</a></li>
+        <li><a href="#!">Наши контакты</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Отзывы</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -164,24 +165,15 @@
     </div>
     <div class="footer-copyright test">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Copyright &copy; <span class="brown-text text-lighten-3">2015</span>
       </div>
     </div>
   </footer>
-
+</div>
 
   <!--  Scripts-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-    <script>
-         var options = [
-    // {selector: '#video', offset: 10, callback: 'Materialize.fadeInImage("#video")' },
-    {selector: '.it1', offset: 700, callback: 'Materialize.fadeInImage(".it1")' },
-    {selector: '#cont', offset: 100, callback: '$("#cont").slideDown(1000)' },
-    {selector: '.it', offset: 400, callback: 'Materialize.fadeInImage(".it")' }
-  ];
-  Materialize.scrollFire(options);
-    </script>
   </body>
 </html>
