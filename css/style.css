@@ -79,3 +79,24 @@ img{
 footer.page-footer {
   margin: 0;
 }
+.textArea{
+  position: relative;
+  left: 8px;
+  margin-bottom: 0;
+}
+.reviews{
+  position: relative;
+  left: 50px;
+}
+.setPickForm{
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 91%;
+}
+.setIconForm{
+  left:-31px;
+  top:-20px;
+}
+.formWrap{
+  margin-bottom: 20px;
+}
