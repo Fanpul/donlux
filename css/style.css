@@ -100,3 +100,14 @@ footer.page-footer {
 .formWrap{
   margin-bottom: 20px;
 }
+.users-coment{
+  position: absolute;
+  left: 10px;
+}
+.comments{
+  display: block;
+
+}
+.comment-list{
+  display: none;
+}
