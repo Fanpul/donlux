@@ -111,3 +111,21 @@ footer.page-footer {
 .comment-list{
   display: none;
 }
+.img-car{
+  background: url(../img/buss5.jpg);
+  height: 300px;
+}
+.img-car2{
+  background: url(../img/buss3.jpg);
+  height: 300px;
+}
+.img-car3{
+  background: url(../img/buss4.jpg);
+  height: 300px;
+}
+.testBox{
+  background: #390;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}

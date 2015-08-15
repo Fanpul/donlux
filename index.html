@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="bower_components/normalize.css">
 </head>
 <body><div class="wrapper">
   <!-- Dropdown Structure -->
@@ -51,7 +52,7 @@
       </div>
     </div>
     <div class="parallax"><video id="video" muted autoplay loop  width="100%">
-                            <source src="video/Пассажирские перевозки в Минске, Беларуси от BELBUS.mp4">
+                            <source src="video/mainVideo.mp4">
                         </video>
         </div>
     </div>
@@ -123,6 +124,48 @@
 
     </div>
   </div>
+  
+    <div class="row zoomingConteiner">
+      <h2 class=" teal-text center-align" >Наши авто гарантируют вам комфотрное и уютное путишествие</h2>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image img-car zoomTarget" data-targetsize="0.4" data-closeclick="true" data-duration="1600"> 
+            <span class="card-title">Mercedes-Benz Vito</span>
+          </div>
+          <div class="card-content">
+            <p>Mercedes-Benz Vito - машина создана для комфортного проезда для пассажиров. Машина является универсалом во многих категориях машиностроения. Комфортный салон, удобные сидения для дальних поездок пассажиров. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image img-car2 zoomTarget" data-targetsize="0.4" 
+          data-closeclick="true" data-duration="1600">
+            
+            <span class="card-title">Mercedes-Benz Sprinter</span>
+          </div>
+          <div class="card-content">
+            <p>Автобус Mercedes-Benz Sprinter - марка автобусов среднего класса для транспортировки  пассажиров.
+ Одно из лидерских качеств это удобство сидений ,является одним из лидеров  среди автобусов для перевозки. Качество производства техничности, безопасный и комфортный для пассажиров.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image img-car3 zoomTarget" data-targetsize="0.4" data-closeclick="true" data-duration="1600">
+            <span class="card-title">Многоцелевые автомобили LT</span>
+          </div>
+          <div class="card-content">
+            <p>Многоцелевые автомобили LT первого поколения завод Volkswagen в Ганновере. Обширное семейство LT первого поколения включает цельнометаллические фургоны с низкой или высокой крышей,микроавтобусы, грузопассажирские машины.  Стойкий автомобиль к морозам , сохраняет тепло в машине, удобные сидения  для перевозки пассажиров.</p>
+            </div>
+          </div>
+        </div>
+
+      
+    </div>
+  
 
 
   <div class="parallax-container valign-wrapper">
@@ -175,6 +218,8 @@
 
   <!--  Scripts-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/jquery.zoomooz.min.js"></script>
+  <script src="jquery.zoomooz.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   </body>
